@@ -1,0 +1,3 @@
+share/inventory_images/*
+share/inventory_certs/*
+private.conf.php

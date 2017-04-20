@@ -1,0 +1,2 @@
+# Exemplifies apache document root
+php_value auto_prepend_file "/var/www/global.conf.php"

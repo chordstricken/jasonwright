@@ -1,0 +1,723 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jason Wright</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Jason Wright
+					</h1>
+					<h2>
+						Linux Admin &amp; Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">jason.dee.wright@gmail.com</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>6 Years experience with infallible motivation and crunch-time resolve, 20+ years experience slaying dragons.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/profile/view?id=32887467">Jason Wright</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ivio LLC</span>
+					<span class="date">
+						2016-02-01 — 2016-10-14
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://goivio.com">https://goivio.com</a>
+				</div>
+				<div class="position">
+					CTO
+				</div>
+				<div class="summary">
+					<p>Makes all of the tech decisions.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Maintained vision on the Development team</li>
+					<li class="bullet">Encouraged professional and personal growth</li>
+					<li class="bullet">Created various internal projects to cultivate team inspiration and alleviate internal stresses</li>
+					<li class="bullet">Managed sprints</li>
+					<li class="bullet">All previous Invexi responsibilities (see below)</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Invexi LLC</span>
+					<span class="date">
+						2015-01-25 — 2016-10-14
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://invexi.com">https://invexi.com</a>
+				</div>
+				<div class="position">
+					Senior Software Developer
+				</div>
+				<div class="summary">
+					<p>Manages database and framework architecture and server deployment.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Advised upper management on Agile development practices</li>
+					<li class="bullet">Maintained daily standups, SCRUM practices, and oversaw Jira and Slack integration</li>
+					<li class="bullet">Wrote various slack integrations using PHP and Python</li>
+					<li class="bullet">Planned, designed, and executed feature improvements within custom WIGUM framework</li>
+					<li class="bullet">Tutored coworkers on best practices surrounding code performance and developmental efficiency</li>
+					<li class="bullet">Implemented and enforced agreeable coding standards</li>
+					<li class="bullet">Wrote and implemented a one-click code and database update module</li>
+					<li class="bullet">Managed countless production deploys</li>
+					<li class="bullet">Configured CentOS and Ubuntu servers for staging and production environments</li>
+					<li class="bullet">Cut server migration time down from weeks to days</li>
+					<li class="bullet">Set up Nagios monitoring, wrote custom integrations with PHP and Python</li>
+					<li class="bullet">Bash automation and provisioning</li>
+					<li class="bullet">Vagrant / VirtualBox development and provisioning scripts</li>
+					<li class="bullet">Recovered client data from backup software images by mounting through Vagrant/VBox</li>
+					<li class="bullet">Configured office network with a Ubiquiti switch</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SyCara Local</span>
+					<span class="date">
+						2011-05-01 — 2015-01-05
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://sycaralocal.com">http://sycaralocal.com</a>
+				</div>
+				<div class="position">
+					Senior Software Engineer
+				</div>
+				<div class="summary">
+					<p>Full platform and software development and innovation.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Promoted to senior level within a year</li>
+					<li class="bullet">Custom server &amp; data center builds</li>
+					<li class="bullet">Handled Linux updates without downtime</li>
+					<li class="bullet">Ubuntu Server setup and performance tuning</li>
+					<li class="bullet">Configured raid0, raid1, and raid10 using custom stride and chunk for optimal performance</li>
+					<li class="bullet">Monitored system performance using top, iostat, jstat, mdadm, hdparm, and custom logging</li>
+					<li class="bullet">Successful 1TB data migration from AWS cloud</li>
+					<li class="bullet">Wrote bash and python provisioning scripts</li>
+					<li class="bullet">Configured Nagios SMS reporting across entire network</li>
+					<li class="bullet">Researched database solutions for best blend of performance, reliability, warehousing, scalability, and ease of development</li>
+					<li class="bullet">Configured Solr, Hazelcast, Memcached, PostgreSQL, MySQL, MongoDB, and Redis clusters for replication</li>
+					<li class="bullet">Set up &amp; Managed NFS shares</li>
+					<li class="bullet">Handled recoveries from raid1 and raid10 failures</li>
+					<li class="bullet">Versioned local dev-box Vagrant environments via provisioning</li>
+					<li class="bullet">Wrote countless data conversion scripts between MySQL, PostgreSQL, MongoDB, Redis, and Solr in PHP, Python, and Bash</li>
+					<li class="bullet">Configured logrotate to minimize potential disk space issues from verbose logging</li>
+					<li class="bullet">Designed &amp; developed scalable multi-threaded scraping system</li>
+					<li class="bullet">Led new feature planning and scoring sessions and whiteboarding</li>
+					<li class="bullet">Participated in Agile Scrum development cycles</li>
+					<li class="bullet">Strict Object Oriented PHP 5.4+</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Superstition Review (ASU)</span>
+					<span class="date">
+						2010-08-01 — 2011-12-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://superstitionreview.com">http://superstitionreview.com</a>
+				</div>
+				<div class="position">
+					Web Developer
+				</div>
+				<div class="summary">
+					<p>Designed and developed a custom CMS</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Managed LAMP environment</li>
+					<li class="bullet">Wordpress Installation</li>
+					<li class="bullet">Created Custom AJAX CMS</li>
+					<li class="bullet">Solicited famous poets for contributions</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Brown&#x27;s Partsmaster, Inc</span>
+					<span class="date">
+						2007-03-01 — 2011-06-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://bpisite.com">http://bpisite.com</a>
+				</div>
+				<div class="position">
+					Office IT / Web Developer
+				</div>
+				<div class="summary">
+					<p>In-office IT Support and Web Inventory</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Managed Inventory Accuracy of Over 10,000 Items</li>
+					<li class="bullet">Provided Hi-Res Photos of Inventory</li>
+					<li class="bullet">Windows SBS Maintenance</li>
+					<li class="bullet">Basic Linux Server Maintenance</li>
+					<li class="bullet">Installed and re-installed Adobe Reader. A lot.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Charon Password Management</span>
+					<span class="date">
+						2015-02-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://charon.blackmast.org">http://charon.blackmast.org</a>
+				</div>
+				<div class="position">
+					Creator
+				</div>
+				<div class="summary">
+					<p>Lightweight Password Managment Tool</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Login: charon</li>
+					<li class="bullet">Password: ferryman</li>
+					<li class="bullet">PHP, AngularJS</li>
+					<li class="bullet">Custom Password Management System</li>
+					<li class="bullet">Useful for sharing passwords across a small team</li>
+					<li class="bullet">Client-side and Server-side encryption using 256bit AES</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Central Arizona Shelter Services (CASS)</span>
+					<span class="date">
+						2016-11-01 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://cassaz.org">http://cassaz.org</a>
+				</div>
+				<div class="position">
+					Volunteer
+				</div>
+				<div class="summary">
+					<p>Website Maintenance</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Help Development department with website maintenance</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Scottsdale Diamonds, Inc.</span>
+					<span class="date">
+						2012-11-01 — 2013-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://scottsdalediamonds.net">http://scottsdalediamonds.net</a>
+				</div>
+				<div class="position">
+					Website Creator
+				</div>
+				<div class="summary">
+					<p>Authored Custom Website &amp; CMS</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed &amp; Developed Website</li>
+					<li class="bullet">Custom CMS System</li>
+					<li class="bullet">AJAX, PHP 5.5, MVC, MongoDB, AngularJS</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Arizona State University</span>
+					<span class="date">
+						2007-08-01 — 2011-12-01
+					</span>
+				</h4>
+				<div class="area">
+					English Creative Writing (Poetry)
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>English Poetry</li>
+					<li>English History</li>
+					<li>Creative Nonfiction</li>
+					<li>Principles of Graphic Design</li>
+					<li>Design Philosophy</li>
+					<li>Basic Spanish</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>PHP</li>
+					<li>Javascript</li>
+					<li>NodeJS</li>
+					<li>Bash</li>
+					<li>Python</li>
+					<li>R</li>
+					<li>Java</li>
+					<li>C</li>
+					<li>Octave</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Linux</h4>
+				</div>
+				<ul class="keywords">
+					<li>Data Migration</li>
+					<li>Horizontal Scalability</li>
+					<li>Multi Threading / Parallelization</li>
+					<li>Machine Learning</li>
+					<li>TLS/SSL</li>
+					<li>Object Oriented / MVC</li>
+					<li>Centos</li>
+					<li>Ubuntu</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Applications</h4>
+				</div>
+				<ul class="keywords">
+					<li>MySQL</li>
+					<li>PostgreSQL</li>
+					<li>MongoDB</li>
+					<li>Memcached</li>
+					<li>Hazelcast</li>
+					<li>Redis</li>
+					<li>Apache2</li>
+					<li>Tomcat</li>
+					<li>NginX</li>
+					<li>NFS</li>
+					<li>Nagios</li>
+					<li>Cordova</li>
+					<li>Solr / Lucene</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Libraries &amp; Frameworks</h4>
+				</div>
+				<ul class="keywords">
+					<li>Vagrant</li>
+					<li>Aptitude</li>
+					<li>Git</li>
+					<li>Android</li>
+					<li>SASS/SCSS</li>
+					<li>Compass</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Spanish</strong>
+				</div>
+				<div class="fluency">
+					Poor
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<ul class="keywords">
+					<li>Poetry</li>
+					<li>Fiction</li>
+					<li>Fantasy</li>
+					<li>Science Fiction</li>
+					<li>Music</li>
+					<li>Gaming</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>moore.dustin@gmail.com</p>
+					<p class="name">
+						<strong>— Dustin Moore (via Invexi LLC)</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>jdorre@gmail.com</p>
+					<p class="name">
+						<strong>— Jen Dorre (via SyCara Local)</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>diaz.rich@gmail.com</p>
+					<p class="name">
+						<strong>— Richard Diaz (via SyCara Local)</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>pushcw@gmail.com</p>
+					<p class="name">
+						<strong>— Cameron Push (via SyCara Local)</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>ohmthezg@gmail.com</p>
+					<p class="name">
+						<strong>— Zachary Hill (via SyCara Local)</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>plaughlin@gmail.com</p>
+					<p class="name">
+						<strong>— Paul Laughlin (via SyCara Local)</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>jeffrey.pruitt@tallwave.com</p>
+					<p class="name">
+						<strong>— Jeff Pruitt (via Tallwave)</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>trishm@asu.edu</p>
+					<p class="name">
+						<strong>— Patricia Murphy (via Superstition Review)</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
