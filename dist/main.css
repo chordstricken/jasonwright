@@ -1,0 +1,16 @@
+section {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Roboto Slab', sans-serif; }
+  section .headshot {
+    width: 100px;
+    border-radius: 50px;
+    overflow: hidden; }
+  section .resource-list a {
+    font-size: 3rem;
+    color: black;
+    padding: 0 0.25rem; }
+    section .resource-list a:hover {
+      color: black; }
+
+/*# sourceMappingURL=main.css.map */

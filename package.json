@@ -1,5 +1,5 @@
 {
-  "name": "resume",
+  "name": "jasonwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jsonresume-theme-paper": "^0.3.3",
-    "resume-cli": "^0.4.14"
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }
